@@ -20,7 +20,7 @@ After installation finishes follow configuration instructions then run ``node .`
   {
       
       "token": "",
-      "prefix": "!",
+      "prefix": "!", // this is only for the Ping command
       "mongooseConnectionString": "mongodb+srv://",
       "hostedBy": false,
       "everyoneMention": true
@@ -28,4 +28,20 @@ After installation finishes follow configuration instructions then run ``node .`
    }
 ```
 ## 📝 Features & Commands
-> Note: The default prefix is: !
+> Note: The default prefix is: /
+### Giveaway
+- /ga-create channel time amount prize
+ ``/ga-create #giveaway 1d 1 XP``
+- /ga-end MessageID
+ ``/ga-end 123456789101112``
+- /ga-reroll MessageID
+ ``/ga-reroll 123456789101112``
+### Level
+- /level @user
+ ``/level @schielef``
+- /leaderboard
+### Moderation
+- /ban @user reason
+ ``/ban @schielef too good``
+- /ban @user reason
+ ``/ban @schielef too good``
