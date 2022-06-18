@@ -16,3 +16,16 @@ After installation finishes follow configuration instructions then run ``node .`
 
 ## ⚙️ Configuration
 ⚠️ Note: Never commit or share your token or api keys publicly ⚠️
+```json
+  {
+      
+      "token": "",
+      "prefix": "!",
+      "mongooseConnectionString": "mongodb+srv://",
+      "hostedBy": false,
+      "everyoneMention": true
+
+   }
+```
+## 📝 Features & Commands
+> Note: The default prefix is: !
