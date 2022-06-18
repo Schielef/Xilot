@@ -27,6 +27,23 @@ After installation finishes follow configuration instructions then run ``node .`
 
    }
 ```
+- /editlevelsystem on/off
+ ``/editlevelsystem on``
+- /set-joinrole GuildID RoleID
+ ``/set-joinrole 123456789101112 123456789101112``
+- /set-membercount-channel GuildID ChannelID
+ ``/set-membercount-channel 123456789101112 123456789101112``
+- /set-meme-channel GuildID ChannelID
+ ``/set-meme-channel 123456789101112 123456789101112``
+- /set-suggestion-channel GuildID SendInto CreateIn
+ ``/set-suggestion-channel 123456789101112 123456789101112 123456789101112``
+- /set-tempvoice-channel GuildID ChannelID CategoryID
+ ``/set-tempvoice-channel 123456789101112 123456789101112 123456789101112``
+- /set-ticket-options GuildID SupportRoleID TicketCategoryID
+ ``/set-ticket-options 123456789101112 123456789101112 123456789101112``
+- /set-welcome-channel GuildID ChannelID
+ ``/set-welcome-channel 123456789101112 123456789101112``
+ 
 ## 📝 Features & Commands
 > Note: The default prefix is: /
 ### Giveaway
@@ -43,5 +60,39 @@ After installation finishes follow configuration instructions then run ``node .`
 ### Moderation
 - /ban @user reason
  ``/ban @schielef too good``
-- /ban @user reason
- ``/ban @schielef too good``
+- /kick @user reason
+ ``/kick @schielef too good``
+- /purge amount
+ ``/purge 20``
+- /warn @user reason
+ ``/warn @schielef spaming``
+- /remove-warns @user warnNumber
+ ``/remove-warns @schielef 1 (see warnNumber trough /warns @user)``
+- /warns @user
+ ``/warns @schielef``
+- /userinfo @user
+ ``/userinfo @schielef``
+### Ticket
+- /ticketpannel
+## Suggestion System
+- /suggest type suggestion
+ ``/suggest Game Invite Xilot``
+## Minigames
+- /meme
+- /betrayal
+- /checkers
+- /chess
+- /fishington
+- /lettertile
+- /ocho
+- /poker
+- /sketchheads
+- /spellcast
+- /wordssnack
+- /yt
+## Others
+- /help
+- /ping
+
+## 🤝 Last Words
+Thank you for using this Bot. You are allowed to change everything the way you want and to use the code in your own projects! If there are any problems or question you run into feel free to contact me on Discord: Xilef#2763
