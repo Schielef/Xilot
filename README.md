@@ -9,7 +9,7 @@
 
 ```
 git clone https://github.com/schielef/Xilot.git
-cd Xilot
+cd Xilot-main
 npm install
 ```
 After installation finishes follow configuration instructions then run ``node .`` to start the bot.
