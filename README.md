@@ -46,18 +46,18 @@ After installation finishes follow configuration instructions then run ``node .`
  
 ## 📝 Features & Commands
 > Note: The default prefix is: /
-### Giveaway
+## Giveaway
 - /ga-create channel time amount prize
  ``/ga-create #giveaway 1d 1 XP``
 - /ga-end MessageID
  ``/ga-end 123456789101112``
 - /ga-reroll MessageID
  ``/ga-reroll 123456789101112``
-### Level
+## Level
 - /level @user
  ``/level @schielef``
 - /leaderboard
-### Moderation
+## Moderation
 - /ban @user reason
  ``/ban @schielef too good``
 - /kick @user reason
@@ -72,7 +72,7 @@ After installation finishes follow configuration instructions then run ``node .`
  ``/warns @schielef``
 - /userinfo @user
  ``/userinfo @schielef``
-### Ticket
+## Ticket
 - /ticketpannel
 ## Suggestion System
 - /suggest type suggestion
