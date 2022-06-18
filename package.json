@@ -1,0 +1,37 @@
+{
+  "name": "xilot",
+  "version": "1.0.0",
+  "description": "Discord.js v13 Bot with SlashCommands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schielef/Xilot.git"
+  },
+  "keywords": [
+    "Discordjs"
+  ],
+  "author": "Xilef",
+  "license": "ISC",
+  "homepage": "https://github.com/schielef/Xilot#readme",
+  "dependencies": {
+       	"@discordjs/builders": "^0.9.0",
+        "anti-phish-advanced": "^1.0.5",
+        "axios": "^0.24.0",
+        "canvas": "^2.8.0",
+        "discord-giveaways": "^5.0.1",
+        "discord-temp-channels": "^3.0.1",
+        "discord-together": "^1.3.3",
+        "discord-xp": "^1.1.16",
+        "discord.js": "^13.2.0",
+        "glob": "^7.1.7",
+        "imageapi.js": "^1.7.0",
+        "moment": "^2.29.1",
+        "mongoose": "^6.1.3",
+        "ms": "^2.1.3",
+        "reconlx": "^1.4.21",
+        "ultrax": "^1.9.3"
+	   }
+	}

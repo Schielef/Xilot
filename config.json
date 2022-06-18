@@ -1,0 +1,7 @@
+{
+    "token": "token",
+    "prefix": "!",
+    "mongooseConnectionString": "mongodb+srv://",
+    "hostedBy": false,
+    "everyoneMention": true
+}
