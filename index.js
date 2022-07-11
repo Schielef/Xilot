@@ -1,4 +1,4 @@
-const { Client, Collection } = require("discord.js");
+const { Client, Collection, version } = require("discord.js");
 
 const client = new Client({
     intents: 32767,
@@ -23,6 +23,7 @@ const fish = new Fish();
 
 client.on('phishingMessage', (message, data) => {
     message.delete()
+
     const memberid = message.author.id
     const member = message.guild.members.cache.get(memberid)
 
@@ -30,9 +31,10 @@ client.on('phishingMessage', (message, data) => {
 
     console.log(`Timeouted ${member.username}`);
 
-})
+});
 
 const { GiveawaysManager } = require('discord-giveaways')
+
 client.giveaways = new GiveawaysManager(client, {
     storage: './SlashCommands/giveaway/giveaway.json',
     default: {
@@ -48,4 +50,7 @@ client.giveaways = new GiveawaysManager(client, {
     }
 })
 
+//Initialize the anti-phish 
+fish.init(client, version);
+//Log into discord
 client.login(client.config.token);
