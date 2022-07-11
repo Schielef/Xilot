@@ -4,6 +4,7 @@
 ## Requirements
 1. Discord Bot Token [Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)
 2. Node.js 16.11.0 or newer
+3. `Message Content` intent turned on in [Discord Developer Page](https://discord.dev) for Anti-Phishing and other features
 
 ## 🚀 Getting Started
 
