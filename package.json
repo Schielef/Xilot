@@ -18,7 +18,7 @@
   "homepage": "https://github.com/schielef/Xilot#readme",
   "dependencies": {
        	"@discordjs/builders": "^0.9.0",
-        "anti-phish-advanced": "^1.0.5",
+        "anti-phish-advanced": "^1.0.9",
         "axios": "^0.24.0",
         "canvas": "^2.8.0",
         "discord-giveaways": "^5.0.1",
